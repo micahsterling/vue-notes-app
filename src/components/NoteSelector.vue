@@ -4,3 +4,9 @@
     <p class="note-selector-timestamp">Timestamp here...</p>
   </div>
 </template>
+
+<script>
+export default {
+  props: ["note"],
+};
+</script>
